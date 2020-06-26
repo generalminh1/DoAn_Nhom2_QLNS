@@ -556,7 +556,6 @@ public class MainForm extends JFrame {
 				 //tạo control DefaultTableModel để hiển thị danh sách user
 				 String[] header = { "Mã NV","Họ tên","Ngày sinh","Quê quán","Giới tính","Dân tộc","SĐT","Phòng ban","Chức vụ","TDHV","Bậc lương","CMND" };
 				 DefaultTableModel dtm = new DefaultTableModel(header, 0);
-				 dtm.addRow(header);
 				 table.setModel(dtm);
 				 //lấy danh sách UserDTO (gọi hàm getAllUsers() trong UserBUS)
 				 ArrayList<PersonnelDTO> arr = new ArrayList<PersonnelDTO>();
